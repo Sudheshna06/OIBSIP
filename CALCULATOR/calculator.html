@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Calculator</title>
+    <style>
+        body{
+            text-align:center;
+            overflow: hidden;
+            background-color:rgb(11, 42, 52) ;
+        } 
+        #bg{
+            background-image: linear-gradient(to right top,#234c53, #234c53);
+            padding: 10px 10px 20px 10px;
+            border:2px solid #2a9295;
+            border-radius: 15px;
+            width: 450px;
+            background-color:#1c5e8b;
+           
+            margin: 1% 30% 18% 32%;  
+        }
+         #b1{
+            color: #2a9295;
+            width: 100px;
+            height:80px;
+            border-radius: 5px;
+            font-size:40px;
+            margin:0px 0px 4px 0px;
+            font-weight:lighter;
+            background-color:rgb(11, 42, 52); 
+        }
+
+        #b2{
+            color: #2a9295;
+            width: 100px;
+            height:80px;
+            border-radius: 5px;
+            font-size:40px;
+            margin:0px 0px 4px 0px;
+            font-weight:lighter;
+            background-color:rgb(11, 42, 52); 
+        }
+        #res{
+            color:#2a9295;
+            padding-right: 10px;
+            width:90%;
+            height: 100px;
+            text-align: right;
+            margin:10px 10px ;
+            font-size: 50px;
+            border-radius: 10px;
+            border-color: rgb(11, 42, 52);
+            
+            background-color:rgb(27, 62, 74);
+        }
+        button:hover{
+            background-color:#1c5e8b;
+            cursor: pointer;
+            color: aliceblue;
+        }
+        #blg{
+            color: #2a9295; 
+            width: 200px;
+            height:80px;
+            border-radius: 5px;
+            font-size:40px;
+            margin:0px 0px 4px 0px;
+            font-weight:lighter;
+            background-color: rgb(11, 42, 52); 
+               
+        }
+        .op{
+            color: #1c5e8b;
+            background-color: rgb(137, 166, 184);  
+        }
+        .cl{
+            color:#1c5e8b;
+            font-size: 40px;
+        }
+        h1{
+            font-size: 50px; 
+             
+            color: #2a9295;
+            
+        }
+        
+        
+    </style>
+    
+</head>
+
+<body>
+    <h1>CALCULATOR</h1>
+    <section id="bg">
+        <div id="res">
+            <p></p>
+        </div>
+        <div class="buttons">
+            <button class="cl" onclick="ac()" id="b1">AC</button>
+            <button onclick="del()" id = "b1">DEL</button>
+            <button class="key" id = "b1">%</button>
+            <button class="key" id = "b1">/</button><br>
+            <button class="key" id = "b2">7</button>
+            <button class="key" id = "b2">8</button>
+            <button class="key" id = "b2">9</button>            
+            <button class="key" id = "b1">x</button><br>
+            <button class="key" id = "b2">4</button>
+            <button class="key" id = "b2">5</button>
+            <button class="key" id = "b2">6</button>
+            <button class="key" id = "b1">-</button><br>
+            <button class="key" id = "b2">1</button>
+            <button class="key" id = "b2">2</button>
+            <button class="key" id = "b2">3</button>
+            <button class="key" id = "b1">+</button><br>
+            <button class="key" id = "b1">0</button>
+            <button class="key" id = "b1">.</button>
+            <button class="key" id = "blg" >=</button>
+        </div>
+    </section>
+    
+    <script src="a.js"></script>
+</body>
+
+</html>
